@@ -1,0 +1,470 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* =========================== For Header Area ============================= */
+
+.header-area {
+	background: url(images/laptop.png);
+	min-height: 100vh;
+	min-width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.header-area .navbar {
+	padding: 0px;
+	margin: 0px;
+	border-radius: 0px;
+	font-weight: bold;
+	background: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.navbar-brand {
+	float: none;
+	display: block;
+	max-width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.navbar-header button {
+	font-size: 10px;
+}
+
+#sticky {
+	width: 100%;
+}
+
+.stick {
+	margin-top: 0 !important;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	box-shadow: 0px 0px 20px red;
+	background: white !important;
+}
+
+.header-text-center {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	min-width: 100%;
+	min-height: 100vh;
+}
+
+.header-text h1 {
+	font-size: 50px;
+}
+
+.header-text hr {
+	border-color: #F05F40;
+	border-width: 3px;
+	max-width: 50px;
+}
+
+.header-text p.lead {
+	font-size: 21px;
+	max-width: 80%;
+	margin: 0 auto;
+	font-weight: 300;
+	color: rgba(255, 255, 255, .7);
+	letter-spacing: .3px;
+	margin-bottom: 50px;
+}
+
+.header-text .btn-lg {
+	padding: 15px 30px;
+}
+
+.header-text .btn-coral {
+	color: #fff;
+	background-color: #F05F40;
+	border-color: #F05F40;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.header-text .btn-coral:hover {
+	background: #eb3812;
+	border: #eb3812;
+}
+
+/* ===================== Header Text CSS End Here ========================== */
+
+/* ====================== CSS For Getstart Area ============================ */
+
+.started-area {
+	text-align: center;
+	padding: 90px 0px;
+	background: #F05F40;
+	color: white;
+}
+
+.started-text h1 {
+	font-weight: normal;
+}
+
+.started-text hr {
+	border-color: white;
+	border-width: 3px;
+	max-width: 50px;
+}
+
+.started-text p {
+	width: 66%;
+	margin: 0px auto;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	color: rgba(255, 255, 255, .7);
+}
+
+.started-text .btn-lg {
+	padding: 15px 30px;
+}
+
+.started-text .btn-white {
+	color: #222;
+	background-color: #fff;
+	border-color: #fff;
+	transition: .35s;
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.started-text .btn-white:hover {
+	background: gray;
+	border: gray;
+	color: white;
+}
+
+/* =================== Getstart Area CSS End Here ========================== */
+
+/* ====================== CSS For Service Area ============================= */
+
+.service-area {
+	text-align: center;
+	padding: 90px 0px;
+}
+
+.service-text h3 {
+	font-weight: normal;
+	font-size: 35px;
+}
+
+.service-area hr {
+	border-color: #F05F40;
+	border-width: 3px;
+	max-width: 50px;
+	padding-bottom: 2%;
+}
+
+.single-service i {
+	color: #F05F40;
+	font-size: 60px;
+}
+
+.single-service h3 {
+	font-weight: normal;
+}
+
+.single-service p {
+	font-size: 18px;
+	color: gray;
+}
+
+/* =================== Service Area CSS End Here =========================== */
+
+/* ===================== CSS For Portfolio Area ============================ */
+
+.padding-breck {
+	padding: 0px;
+}
+
+.portfolio-box-caption {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.portfolio-box-caption-content {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: 100%;
+	z-index: 100;
+	display: none;
+	text-align: center;
+	color: white;
+}
+
+.portfolio-box-caption:hover .portfolio-box-caption-content {
+	background: rgba(240, 95, 64, 0.7);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 2s;
+	align-items: center;
+}
+
+.project-category {
+	font-size: 15px;
+	color: rgba(255, 255, 255, .7);
+}
+
+.project-name {
+	font-size: 20px;
+}
+
+/* ===================== Portfolio CSS End Here ============================ */
+
+/* ===================== CSS For Dowanload Area ============================ */
+
+.download-area {
+	text-align: center;
+	padding: 50px 0px;
+	background: black;
+	color: white;
+}
+
+.download-area h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.download-area .btn-lg {
+	padding: 15px 30px;
+	margin-top: 2%;
+}
+
+.download-area .btn-white {
+	color: #222;
+	background-color: #fff;
+	border-color: #fff;
+	transition: .35s;
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.download-area .btn-white:hover {
+	background: gray;
+	border: gray;
+	color: white;
+}
+
+/* ===================== Dowanload CSS End Here ============================ */
+
+/* ======================= CSS For Touch Area ============================== */
+
+.touch-area {
+	text-align: center;
+	padding: 100px 0px;
+}
+
+.touch-area h1 {
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	font-size: 32px;
+}
+
+.touch-area hr {
+	border-color: #F05F40;
+	border-width: 3px;
+	max-width: 50px;
+}
+
+.touch-area p {
+	width: 66%;
+	margin: 0px auto;
+	font-size: 18px;
+	margin-bottom: 2%;
+}
+
+.touch-text i {
+	font-size: 50px
+}
+
+.phone-icon h4 {
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.envelope-icon span {
+	color: #F05F40;
+}
+
+/* ======================= Touch CSS End Here ============================== */
+
+/* ====================== CSS For Footer Area ============================== */
+
+.footer-area {
+	text-align: center;
+	position: relative;
+}
+
+.footer-area img {
+	margin: 0px auto;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	z-index: 9999;
+	box-shadow: 0px 0px 20px red;
+}
+
+.footer-bg {
+	background: #4F3C30;
+	padding: 50px 0px 25px 0px;
+	color: white;
+	position: absolute;
+	width: 100%;
+	margin-top: -39px;
+}
+
+.footer-text p.lead {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+/* ====================== Footer CSS End Here ============================== */
+
+/* ===================== CSS For Media Queries ============================= */
+
+@media (min-width: 0px) and (max-width: 425px) {
+	.navbar {
+		background: white !important;
+	}
+	.header-text h1 {
+		font-size: 20px;
+		width: 90%;
+		margin: 0px auto;
+	}
+	.header-text p.lead {
+		font-size: 14px;
+		max-width: 85%;
+		margin-bottom: 25px;
+	}
+	.header-text .btn-lg {
+		padding: 7px 11px;
+	}
+	.header-text .btn-coral {
+		font-size: 8px;
+		letter-spacing: .3px;
+	}
+	.started-text h1 {
+		font-size: 30px;
+	}
+	.started-text p {
+		width: 98%;
+	}
+	.started-text .btn-lg {
+		padding: 10px 20px;
+	}
+	.started-text .btn-white {
+		font-size: 10px
+	}
+	.mg-bottom {
+		margin-bottom: 8%;
+	}
+	.service-text h3 {
+		font-size: 30px;
+	}
+	.single-service h3 {
+		font-size: 20px;
+	}
+	.download-area h1 {
+		font-size: 30px;
+	}
+	.download-area .btn-lg {
+		padding: 11px 25px;
+	}
+	.download-area .btn-white {
+		font-size: 11px
+	}
+	.touch-area h1 {
+		font-size: 28px;
+	}
+	.touch-area p {
+		width: 80%;
+		margin-bottom: 10%;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.navbar {
+		background: white !important;
+	}
+	.navbar:hover {
+		color: black !important;
+	}
+	.header-text h1 {
+		font-size: 25px;
+		width: 80%;
+		margin: 0px auto;
+	}
+	.header-text p.lead {
+		font-size: 18px;
+		max-width: 75%;
+		margin-bottom: 30px;
+	}
+	.header-text .btn-lg {
+		padding: 10px 15px;
+	}
+	.header-text .btn-coral {
+		font-size: 10px;
+	}
+	.started-text p {
+		width: 90%;
+	}
+	.started-text .btn-lg {
+		padding: 12px 25px;
+	}
+	.started-text .btn-white {
+		font-size: 12px
+	}
+	.mg-bottom {
+		margin-bottom: 5%;
+	}
+	.download-area .btn-lg {
+		margin-top: 4%;
+	}
+	.touch-text p {
+		margin-bottom: 5%;
+	}
+}
+
+/* ================== Media Queries CSS End Here =========================== */
+
+/* ===================== CSS Styling End Here ================================ */
